@@ -32,7 +32,7 @@ A modern, responsive **Weather Application** built with **React + TypeScript**, 
 ```bash
 src/
  ├── api/            # Weather API configuration & requests
- ├── components/     # Reusable UI components (shadcn/ui)
+ ├── components/     # Reusable UI components
  ├── context/        # Global state & context providers
  ├── hooks/          # Custom React hooks
  ├── lib/            # Utility functions & helpers
