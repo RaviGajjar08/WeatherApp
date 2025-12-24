@@ -7,7 +7,7 @@ const WeatherDashboard = () => {
 
   const {coordinates, error:locationError, getLocation, isLoading:locationLoading} = useGeolocation();
   console.log(coordinates);
-  //
+
   // const handleRefresh = () =>{
   //   getLocation();
   //   if(coordinates){
