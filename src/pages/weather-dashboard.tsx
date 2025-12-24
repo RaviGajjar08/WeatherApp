@@ -15,9 +15,9 @@ const WeatherDashboard = () => {
   //   }
   // };
 
-  if(locationLoading){
-    return <WeatherSkeleton/>
-  }
+  // if(locationLoading){
+  //   return <WeatherSkeleton/>
+  // }
 
   return (
   <div className="space-y-4">
