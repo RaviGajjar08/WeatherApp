@@ -8,12 +8,12 @@ const WeatherDashboard = () => {
   const {coordinates, error:locationError, getLocation, isLoading:locationLoading} = useGeolocation();
   console.log(coordinates);
 
-  // const handleRefresh = () =>{
-  //   getLocation();
-  //   if(coordinates){
-  //     //reload weather data
-  //   }
-  // };
+  const handleRefresh = () =>{
+    getLocation();
+    if(coordinates){
+      //reload weather data
+    }
+  };
 
   if(locationLoading){
     return <WeatherSkeleton/>
