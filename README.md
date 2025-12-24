@@ -23,7 +23,7 @@ A modern, responsive **Weather Application** built with **React + TypeScript**, 
 * **Data Fetching:** @tanstack/react-query
 * **Charts:** Recharts
 * **Weather Data:** External Weather API
-* **Build Tool:** Vite
+* **Build Tool:** 
 
 ---
 
